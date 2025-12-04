@@ -10,11 +10,7 @@ on:
   pull_request:
     branches: [ main ]
   workflow_dispatch:
-# --- 👇 添加这部分 👇 ---
-permissions:
-  contents: read
-  packages: write
-# ----------------------
+
 jobs:
   build:
     runs-on: ubuntu-latest
